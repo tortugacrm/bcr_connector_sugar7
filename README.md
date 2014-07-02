@@ -14,6 +14,7 @@ Ultimately, BCR may send data to an external system. The Sugar connector for BCR
 
 * Installation
 1. Sugar: install the BCR module using the module loader (Sugar 7 any edition).
+Upload BCR.zip.
 The installation will create and populated a new field on the User module. This field will receive a token that will replace the password when talking to Sugar. This is a security requirement; otherwise your password will be recorded in your network equipments logs. 
 The installation will create an email template that you might want to use in order to notify each Sugar user his new credentials when using BCR with Sugar.
 2. BCR app: in the BCR export settings, go to the BCR API panel and set the following url:
